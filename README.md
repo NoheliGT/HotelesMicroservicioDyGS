@@ -55,12 +55,12 @@ _(Pendiente)._
 
 _Herramientas utilizadas en el proyecto:_
 
-* [React native](https://reactnative.dev/) - El framework web usado
-* [Expo](https://docs.expo.dev/) - Manejador de dependencias
+* [React native](https://reactnative.dev/) - El framework utilizado para desarrollo móvil
+* [Expo](https://docs.expo.dev/) - Manejador de emulación
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Eduardo Casimiro Quetz** - *Desarrollador* - [eduardosenpai](https://github.com/eduardosenpai)
-* **Noheli Garcia Tejeda** - *Desarrollador* - [NoheliGT](https://github.com/NoheliGT)
+* **Eduardo Casimiro Quetz** - *Ing. Desarrollo y Gestión de Software* - [eduardosenpai](https://github.com/eduardosenpai)
+* **Noheli Garcia Tejeda** - *Ing. Desarrollo y Gestión de Software* - [NoheliGT](https://github.com/NoheliGT)
