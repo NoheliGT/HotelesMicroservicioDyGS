@@ -38,3 +38,21 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
     transform: rotate(360deg);
   }
 }
+.padrelista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 40px;
+}
+.lista {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.imagen {
+  border-radius: 10px;
+  background-color: azure;
+  width: 230px;
+  height: 345px;
+}
+
+
