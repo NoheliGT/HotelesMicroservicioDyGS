@@ -1,8 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
+import todos from "./hoteles.json";
+ /* {useEffect, useState} */
 
 function App() {
-  const url = 'https://www.inegi.org.mx/app/api/denue/v1/consulta/BuscarEntidad/hoteles/4/1/10/45866f16-93af-4d29-90e5-c8ec316c0509';
+/*   const url = 'https://www.inegi.org.mx/app/api/denue/v1/consulta/BuscarEntidad/hoteles/4/1/10/45866f16-93af-4d29-90e5-c8ec316c0509';
   const [todos, setTodos] = useState();
   const fetchApi = async () => {
   const response = await fetch(url)
@@ -15,7 +17,7 @@ function App() {
 
 useEffect(() =>{
 fetchApi()
-}, [])
+}, []) */
 const imgcero = "https://telegra.ph/file/fb1bc5d6d26b3897cda28.jpg";
 const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
   return (
@@ -32,7 +34,7 @@ const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
         <li className='lista'>
         <img className='imagen' src={imgcero} alt=""/>
         <div>
-        {todos[0].Nombre}
+        Hotel: {todos[0].Nombre}
         {todos[0].Ubicacion}
         {todos[0].Correo_e}
         {todos[0].Sitio_internet}
@@ -41,7 +43,7 @@ const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
         <li className='lista'>
         <img className='imagen' src={imguno} alt=""/>
         <div>
-        {todos[1].Nombre}
+        Hotel: {todos[1].Nombre}
         {todos[1].Ubicacion}
         {todos[1].Correo_e}
         {todos[1].Sitio_internet}
