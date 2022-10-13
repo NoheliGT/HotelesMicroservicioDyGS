@@ -69,7 +69,7 @@ const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
       </div>
   {/*     <p>
         Hotel:  {todos[0].Nombre} <br></br> Ubicación: {todos[0].Ubicacion}
-        <br></br> Domicilio: {todos[0].Calle}, Colonia: {todos[0].Colonia} <br></br>Correo de contacto: {todos[0].Correo_e} 
+        <br></br> Domicilios: {todos[0].Calle}, Colonia: {todos[0].Colonia} <br></br>Correo de contacto: {todos[0].Correo_e} 
         <br></br>Página oficial: {todos[0].Sitio_internet}
         </p> */}
       </header>
