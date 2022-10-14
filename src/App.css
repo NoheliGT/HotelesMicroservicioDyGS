@@ -14,16 +14,22 @@
 }
 
 .App-header {
-  background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+min-height: 90vh;
+
+
+ /*  display: grid;
+ min-height: 100vh;
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 40px;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
@@ -41,18 +47,30 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 .padrelista {
   display: grid;
   grid-template-columns: repeat(auto-fill, 100px);
-  gap: 40px;
+  gap: 270px;
+  padding-top: 70px;
 }
 .lista {
   list-style: none;
   font-size: 1rem;
+  align-items: center;
 }
 
 .imagen {
   border-radius: 10px;
   background-color: azure;
-  width: 230px;
-  height: 345px;
+  width: 200px;
+  height: 250px;
+  display:flex;
+  flex-direction: row;
+}
+
+.info {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left: 45px;
 }
 
 
