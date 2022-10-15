@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import todos from "./hoteles.json";
+import imagen from "./imagenes.json";
  /* {useEffect, useState} */
 
 function App() {
@@ -18,8 +19,6 @@ function App() {
 useEffect(() =>{
 fetchApi()
 }, []) */
-const imgcero = "https://telegra.ph/file/fb1bc5d6d26b3897cda28.jpg";
-const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
   return (
 
     <div className="App">
@@ -31,31 +30,38 @@ const imguno = "https://telegra.ph/file/16370a7fa38ebf39cbc0b.jpg";
       <header className='App-header'>
       <ul className='padrelista'>
         <li className='lista'>
-        <img className='imagen' src={imgcero} alt=""/>
+        <img className='imagen' src={imagen.img[0]} alt=""/>
         <div className='info'>
-        {todos[0].Nombre}
+        {todos[0].Nombre}{'\n'}{'\n'}
         {todos[0].Ubicacion}
         </div>
         </li>
         <li className='lista'>
-        <img className='imagen' src={imguno} alt=""/>
+        <img className='imagen' src={imagen.img[1]} alt=""/>
         <div className='info'>
-        {todos[1].Nombre}
+        {todos[1].Nombre}{'\n'}{'\n'}
         {todos[1].Ubicacion}
         </div>
         </li>
         <li className='lista'>
-        <img className='imagen' src={imguno} alt=""/>
+        <img className='imagen' src={imagen.img[2]} alt=""/>
         <div className='info'>
-        {todos[5].Nombre}
-        {todos[5].Ubicacion}
+        {todos[2].Nombre}{'\n'}{'\n'}
+        {todos[2].Ubicacion}
         </div>
         </li>
         <li className='lista'>
-        <img className='imagen' src={imguno} alt=""/>
+        <img className='imagen' src={imagen.img[3]} alt=""/>
         <div className='info'>
-        {todos[3].Nombre}
+        {todos[3].Nombre}{'\n'}{'\n'}
         {todos[3].Ubicacion}
+        </div>
+        </li>
+        <li className='lista'>
+        <img className='imagen' src={imagen.img[0]} alt=""/>
+        <div className='info'>
+        {todos[4].Nombre}{'\n'}{'\n'}
+        {todos[4].Ubicacion}
         </div>
         </li>
       </ul>
