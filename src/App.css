@@ -47,14 +47,17 @@ min-height: 90vh;
 }
 .padrelista {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 100px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
   gap: 270px;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .lista {
   list-style: none;
   font-size: 1rem;
   align-items: center;
+  text-align: center;
 }
 
 .imagen {
@@ -73,5 +76,36 @@ min-height: 90vh;
   font-weight: bold;
   padding-left: 45px;
 }
+
+.header-content{
+  min-height: 35vh;
+  background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("./images/parques-de-campeche-1.jpg") center/cover no-repeat;
+  flex-direction: column;
+}
+.header-title{
+  font-size: 3.5rem;
+  padding-top: 20px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.header-text{
+  margin-top: 1px;
+  margin-bottom: 7rem;
+  opacity: 0.8;
+  max-width: 2000px;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+body {
+  background: #c0392b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
+
+}
+
+
 
 
