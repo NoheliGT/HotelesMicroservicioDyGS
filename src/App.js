@@ -467,6 +467,110 @@ fetchApi()
             <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
           </Card>
         </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[32]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[32].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[32].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[33]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[33].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[33].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[34]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[34].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[34].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[35]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[35].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[35].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[36]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[36].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[36].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[37]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[37].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[37].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[38]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[38].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[38].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
+        <Col className="mb-0 p-4">
+          <Card style={{ width: '18rem' }} border="secondary">
+            <Card.Img variant="top" src={imagen.img[39]} style={{ width: '17.9rem', height:'10rem' }}/>
+            <Card.Body>
+              <Card.Title>{todos[39].Nombre}</Card.Title>
+              <Card.Text>
+              {todos[39].Ubicacion}
+              </Card.Text>
+              <Button variant="outline-secondary">+ Información</Button>
+            </Card.Body>
+            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
+          </Card>
+        </Col>
         
     </Row>
       
