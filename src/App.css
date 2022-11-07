@@ -19,7 +19,7 @@
   background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 
 
-min-height: 90vh;
+min-height: 120vh;
 
 
  /*  display: grid;
@@ -78,13 +78,13 @@ min-height: 90vh;
 }
 
 .header-content{
-  min-height: 35vh;
-  background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("./images/parques-de-campeche-1.jpg") center/cover no-repeat;
+  min-height: 10vh;
+  background: linear-gradient(rgba(111, 172, 188, 0.5), rgba(111, 7, 25, 0.5)), url("./images/parques-de-campeche-1.jpg") center/cover no-repeat;
   flex-direction: column;
 }
 .header-title{
   font-size: 3.5rem;
-  padding-top: 20px;
+  padding-top: 10px;
   letter-spacing: 4px;
   opacity: 0.9;
 }
@@ -99,12 +99,37 @@ min-height: 90vh;
 }
 
 body {
-  background: #c0392b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ 
 
 
 }
+input {
+  top: 1px;
+  opacity: 1;
+  color: #28cc70;
+  width: 80%;
+  height: 70px;
+  position: relative;
+  padding: 0px 16px;
+  border: black;
+  border-width: 4px;
+  border-radius: 4px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: white;
+  color: #282828;
+  box-shadow: 0px 4px 20px 0px transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+  -webkit-appearance: none;
+}
+
+
 
 
 
