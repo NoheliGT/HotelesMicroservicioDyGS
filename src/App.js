@@ -8,6 +8,8 @@ import todos from "./hoteles.json";
  import Button from 'react-bootstrap/Button';
  import {useState} from "react";
  import Offcanvas from 'react-bootstrap/Offcanvas';
+ import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 
 function App() {
@@ -36,7 +38,7 @@ function App() {
       </Offcanvas>           
       </div>
             <div className='header-content flex flex-c text-center text-white'>
-                <h2 className='header-title text-capitalize'>Hoteleria en Campeche</h2><br />
+                <h2 className='header-title text-capitalize'> HOTELERIA EN CAMPECHE</h2><br />
                 <p className='header-text fs-18 fw-3'>¡Este es Campeche, señores, la tierra del pregonero! se levanta con el sol y se oye con los luceros!</p>
                 <div className="field">
                 <input placeholder="¡Escribe un Hotel!" onChange={event => setQuery(event.target.value)}/>
@@ -45,7 +47,15 @@ function App() {
         </header>
     </div>
     <body>
-    <div>
+    <div className="inicial">
+    <Tabs
+      defaultActiveKey="home"
+      id="justify-tab-example"
+      className="mb-3"
+      justify
+      variant='pills'
+    >
+      <Tab eventKey="home" title="B ú s q u e d a">
       {
   todos.filter(post => {
     if (query === '') {
@@ -54,6 +64,7 @@ function App() {
       return post;
     }
   }).map((post, index) => (
+
     <div key={index}>
       <Row xs={1} md={3} className="g-4">
       <Col className="mb-0 p-4">
@@ -74,6 +85,14 @@ function App() {
     </div>
   ))
 }
+      </Tab>
+
+      <Tab eventKey="profile" title="C o n t á c t a n o s">
+      </Tab>
+      <Tab eventKey="longer-tab" title="R e s e ñ a s">
+      </Tab>
+    </Tabs>
+ 
     </div>
 
     <div>
