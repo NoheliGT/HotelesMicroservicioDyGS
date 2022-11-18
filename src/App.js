@@ -66,19 +66,17 @@ function App() {
     }
   }).map((post, index) => (
 
-    <div key={index}>
+    <div key={index} >
       <Row xs={1} md={3} className="g-4">
-      <Col className="mb-0 p-4">
-          <Card style={{ width: '18rem' }} border="secondary">
-            <Card.Img variant="top" src={post.img} style={{ width: '17.9rem', height:'10rem' }}/>
+      <Col className="mb-0 p-4" >
+          <Card style={{ width: '15rem', height:'19rem' }} >
+            <Card.Img variant="top" src={post.img} style={{ width: '14.9rem', height:'10rem' }}/>
             <Card.Body>
               <Card.Title>{post.Nombre}</Card.Title>
               <Card.Text>
               {post.Ubicacion}
               </Card.Text>
-              <Button variant="outline-secondary">+ Información</Button>
             </Card.Body>
-            <Card.Footer className="text-muted">Hace 1 día</Card.Footer>
           </Card>
       </Col>
       </Row>
@@ -86,10 +84,6 @@ function App() {
     </div>
   ))
 }
-      </Tab>
-
-      <Tab eventKey="profile" title="C o n t á c t a n o s">
-      <MapComponent /> 
       </Tab>
       <Tab eventKey="longer-tab" title="R e s e ñ a s">
       </Tab>
