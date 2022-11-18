@@ -10,6 +10,7 @@ import todos from "./hoteles.json";
  import Offcanvas from 'react-bootstrap/Offcanvas';
  import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import { MapComponent } from "./components/MapComponent.js";
 
 
 function App() {
@@ -88,6 +89,7 @@ function App() {
       </Tab>
 
       <Tab eventKey="profile" title="C o n t á c t a n o s">
+      <MapComponent /> 
       </Tab>
       <Tab eventKey="longer-tab" title="R e s e ñ a s">
       </Tab>
