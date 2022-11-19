@@ -31,11 +31,10 @@ function App() {
         <Button className="mb-2" variant="outline-light" onClick={handleShow}>+Información</Button>
         <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-        <Offcanvas.Title>Hotelería en Camepeche</Offcanvas.Title>
+        <Offcanvas.Title>Hoteles más reservados en Campeche</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-        En proceso...
-        </Offcanvas.Body>
+        Aquí están los hoteles más elegidos por nuestros usuarios en Campeche. Encuentra la opción más adecuada para tu viaje.</Offcanvas.Body>
       </Offcanvas>           
       </div>
             <div className='header-content flex flex-c text-center text-white'>
@@ -57,6 +56,9 @@ function App() {
       variant='pills'
     >
       <Tab eventKey="home" title="B ú s q u e d a">
+
+    <div >
+      <Row lg={4}>
       {
   todos.filter(post => {
     if (query === '') {
@@ -65,25 +67,30 @@ function App() {
       return post;
     }
   }).map((post, index) => (
-
-    <div key={index} >
-      <Row xs={1} md={3} className="g-4">
-      <Col className="mb-0 p-4" >
-          <Card style={{ width: '15rem', height:'19rem' }} >
-            <Card.Img variant="top" src={post.img} style={{ width: '14.9rem', height:'10rem' }}/>
-            <Card.Body>
-              <Card.Title>{post.Nombre}</Card.Title>
-              <Card.Text>
-              {post.Ubicacion}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-      </Col>
+    <Col className="d-flex">
+    <Card className="flex-fill mb-2" style={{ width: '13rem', height:'23rem' }}>
+    <Card.Img variant="top" src={post.img} className='img-fluid shadow-4' style={{height:'10rem' }}/>
+      <Card.Body>
+        <Card.Title style={{ fontSize: "1rem"}}>{post.Nombre}</Card.Title>
+        <Card.Text style={{ fontSize: "0.8rem"}}> 
+        🌎Ubicación: {post.Ubicacion}
+        </Card.Text>
+        <Card.Text style={{ fontSize: "0.8rem"}}> 
+        {post.Colonia}, {post.Calle}
+        </Card.Text>
+        <a href={post.mapa} target="_blank" rel="noreferrer">
+          <Button className="btn btn-primary" variant="primary" size="sm">Ir ✈</Button>
+        </a>
+      </Card.Body>
+    </Card>
+  </Col>
+    ))
+  }
+       
       </Row>
      
     </div>
-  ))
-}
+
       </Tab>
       <Tab eventKey="longer-tab" title="R e s e ñ a s">
       </Tab>
