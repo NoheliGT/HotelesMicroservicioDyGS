@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/HotelesMicroservicioDyGS/build/static/css/main.986ca74e.css",
+    "main.js": "/HotelesMicroservicioDyGS/build/static/js/main.a1914e0a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/HotelesMicroservicioDyGS/build/static/js/787.28cb0dcd.chunk.js",
+    "static/media/parques-de-campeche-1.jpg": "/HotelesMicroservicioDyGS/build/static/media/parques-de-campeche-1.cda21fdb265d8a3a8e82.jpg",
+    "service-worker.js": "/HotelesMicroservicioDyGS/build/service-worker.js",
+    "index.html": "/HotelesMicroservicioDyGS/build/index.html",
+    "main.986ca74e.css.map": "/HotelesMicroservicioDyGS/build/static/css/main.986ca74e.css.map",
+    "main.a1914e0a.js.map": "/HotelesMicroservicioDyGS/build/static/js/main.a1914e0a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/HotelesMicroservicioDyGS/build/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.986ca74e.css",
+    "static/js/main.a1914e0a.js"
+  ]
+}
