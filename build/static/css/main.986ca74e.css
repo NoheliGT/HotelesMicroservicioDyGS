@@ -1,2 +1,151 @@
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.App{text-align:center}.App-logo{height:40vmin;pointer-events:none}@media (prefers-reduced-motion:no-preference){.App-logo{-webkit-animation:App-logo-spin 20s linear infinite;animation:App-logo-spin 20s linear infinite}}.App-header{background:#fee;background:linear-gradient(90deg,#ddefbb,#fee);min-height:120vh}.App-link{color:#61dafb}@-webkit-keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes App-logo-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.padrelista{grid-gap:10px;display:grid;gap:270px;grid-auto-rows:100px;grid-template-columns:repeat(3,1fr);padding-top:50px}.lista{align-items:center;font-size:1rem;list-style:none;text-align:center}.imagen{background-color:azure;border-radius:10px;display:flex;flex-direction:row;height:250px;width:200px}.info{font-size:.9rem;font-weight:700;padding-left:45px;padding-top:15px;text-align:center}.header-content{background:linear-gradient(rgba(111,172,188,.5),rgba(111,7,25,.5)),url(/HotelesMicroservicioDyGS/build/static/media/parques-de-campeche-1.cda21fdb265d8a3a8e82.jpg) 50%/cover no-repeat;flex-direction:column;min-height:7vh}.header-title{font-size:2rem;letter-spacing:7px;opacity:.9;padding-top:15px}.header-text{font-size:1rem;letter-spacing:4px;margin-bottom:2rem;margin-top:-1px;max-width:2000px;opacity:.8;text-align:center}body{background:#ece9e6;background:linear-gradient(90deg,#fff,#ece9e6);height:100%}input{-webkit-appearance:none;background-color:#fff;border:#000;border-radius:6px;border-width:1px;box-shadow:0 0 8px #ccc;color:#28cc70;color:#282828;font-family:Gotham SSm A,Gotham SSm B,sans-serif;font-size:16px;font-weight:400;height:70px;line-height:normal;opacity:1;padding:0 20px;position:relative;top:15px;transition:background-color .3s ease-in-out,box-shadow .3s ease-in-out,padding .1s ease-in-out;width:80%}.espacio{background-color:#0d6efd;height:6rem;min-height:10vh;opacity:.9;padding-left:45px;padding-top:30px}.inicial{padding-top:45px}.leaflet-container{height:100vh;width:100%}.row{display:flex;flex-wrap:wrap}
-/*# sourceMappingURL=main.986ca74e.css.map*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: #FFEEEE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
+
+min-height: 120vh;
+
+
+ /*  display: grid;
+ min-height: 100vh;
+  grid-template-columns: repeat(auto-fill, 100px);
+  gap: 40px;
+>>>>>>> 2cd5de02448204c8a9d95804eaa53d296ee11ce2
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.padrelista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  gap: 270px;
+  padding-top: 50px;
+}
+.lista {
+  list-style: none;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.imagen {
+  border-radius: 10px;
+  background-color: azure;
+  width: 200px;
+  height: 250px;
+  display:flex;
+  flex-direction: row;
+}
+
+.info {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left: 45px;
+}
+
+.header-content{
+  min-height: 7vh;
+  background: linear-gradient(rgba(111, 172, 188, 0.5), rgba(111, 7, 25, 0.5)), url("./images/parques-de-campeche-1.jpg") center/cover no-repeat ;
+  flex-direction: column;
+}
+.header-title{
+  font-size: 2rem;
+  padding-top: 15px;
+  letter-spacing: 7px;
+  opacity: 0.9;
+
+}
+.header-text{
+  margin-top: -1px;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  max-width: 2000px;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+body {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+
+
+}
+input {
+  top: 15px;
+  opacity: 1;
+  color: #28cc70;
+  width: 80%;
+  height: 70px;
+  position: relative;
+  padding: 0px 20px;
+  border: black;
+  border-width: 1px;
+  border-radius: 6px;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: white;
+  color: #282828;
+  box-shadow: 0px 0px 8px #ccc;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+  -webkit-appearance: none;
+}
+
+.espacio {
+background-color: #0d6efd;
+height: 6rem;
+padding-top: 30px;
+padding-left: 45px;
+min-height: 10vh;
+opacity: 0.9;
+}
+
+.inicial {
+  padding-top: 45px;
+}
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  }
