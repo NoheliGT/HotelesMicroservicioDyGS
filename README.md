@@ -1,6 +1,6 @@
 # Proyecto DyGS10 - Microservicio Hoteles
 
-_Un proyecto donde hacemos consumo de una API para encontrar los mejores resultados en Hoteleria para el estado de Campeche._
+_Un proyecto donde hacemos consumo de una API para encontrar los mejores resultados en Hoteleria para el estado de Campeche y obteniendo como resultado una PWA._
 
 ![Image text](https://telegra.ph/file/be6468df80d7bf7de76b6.jpg)
 
